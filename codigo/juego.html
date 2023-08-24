@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../codigo/estilos.css">
+</head>
+<body>
+    
+    <div class="Principal"> 
+        <a href="../codigo/hojaVideo.html"> <button type="button" class="boton" > HISTORIA </button></a>
+         <button type="button" class="boton">JUGUEMOS </button>
+         </div> 
+         <a href="../codigo/principal.html"><svg  width="200" height="80">
+            <rect x="45" y="5" width="60" height="35" rx="5" id="Parte1" fill="#F0E9D2"></rect>
+            <rect x="50" y="10" width="50" height="25" rx="5" id="Parte2" fill="#495579"></rect>
+            <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="poligono"></polygon>
+            <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="poligon" ></polygon>
+        </svg></a>
+         <div id="contenedor"> 
+          
+         <H1 id="titulo">  Juguemos un poco </H1>
+         
+        </div>
+         <h2 id="titul"> Armemos el rompecabezas y veamos que imagen es...</h2>
+         <div id="cuadro" >
+            <div id="ronpe1" class="ronpe"> 
+            <p id="texto"> arrastre y suelte la imagen aqui...</p>
+         </div>
+           
+            <div id="ronpe2" class="ronpe"> 
+                 <p id="texto"> arrastre y suelte la imagen aqui...</p>
+             </div> 
+           
+            <div id="ronpe3" class="ronpe">
+                 <p id="texto"> arrastre y suelte la imagen aqui...</p>
+           </div>
+         </div>
+             
+        <div class="imagenR" id="ima">
+          <div>
+                <img src="../codigo/assets/imagenes/rompe2.png" draggable="true" id="rompeB" alt=""  >
+            </div>
+             <div>
+            <img src="../codigo/assets/imagenes/Rompe1.png" draggable="true" id="rompeA" alt="" >
+             </div>
+           
+            <div>
+                <img src="../codigo/assets/imagenes/Rompe3.png" draggable="true" id="rompeC" alt=""  >
+            </div>
+         </div>
+            <button id="reinicio" >Reiniciar </button>
+        <script src="juego.js"></script>
+    </body>
+</html>
